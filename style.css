@@ -1,0 +1,118 @@
+div.header {
+  width: 960px;
+  height:70px;
+  margin-left: 40px;
+  line-height: 70px;
+  text-align: left;
+  box-sizing: border-box;
+  background:#4267b2;
+}
+
+.block{
+  width: 700px;
+  height: 960px;
+  margin-left: 300px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  overflow: auto;
+}
+#template{
+  display: none;
+}
+.news{
+  width: 650px;
+  height: 160px;
+  margin-top:10px;
+  margin-left: 40px;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+
+}
+.add{
+  width: 650px;
+  height: 160px;
+  margin-top:0px;
+  margin-left: 340px;
+
+
+}
+
+#button {
+  font-weight:700;
+  position: relative;
+  top:95px;
+  float: right;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 2px;
+  background:  #4169E0;
+  box-shadow: 0 -3px #6495ED inset;
+  transition: 0.2s;
+
+}
+#button:hover { background: rgb(53, 167, 110); }
+#button:active {
+  background: rgb(33,147,90);
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+.close {
+position: relative;
+width: 15px;
+height: 15px;
+opacity: 0.3;
+}
+.close:hover {
+opacity: 1;
+}
+.close:before, .close:after {
+position: absolute;
+left: 630px;
+content: ' ';
+height: 30px;
+width: 2px;
+background-color: #333;
+}
+.close:before {
+transform: rotate(45deg);
+}
+.close:after {
+transform: rotate(-45deg);
+}
+
+.edit {
+    border:1px solid #9E9E9E;
+    color: #000000;
+    width: 500px;
+    height: 130px;
+    padding: 3px;
+    text-align: left;
+    margin-left: 2px;
+    margin-bottom: 2px;
+    font-size: 11px;
+    font-family: Verdana;
+    background: #FFF;
+}
+
+.bk {
+    background:#fff  repeat-x;
+}
+textarea { resize: none; }
+h1 {
+font-family: 'Times New Roman', Times, serif;
+font-size: 200%;
+margin-left: 20px;
+color: white;
+}
+/*#e9ebee
+.sidebar {
+  width: 137px;
+  height:40px;
+  margin-left: 40px;
+  text-align: center;
+  line-height:40px;
+  box-sizing: border-box;
+  border:1px solid #bec3cf;
+  float: left;
+  background:linear-gradient(to top, #d1d4db, #d8dae0);
+}
